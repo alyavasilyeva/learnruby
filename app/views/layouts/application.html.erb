@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Tester</title>
+    <title>Stock Market App</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,8 @@
   </head>
 
   <body>
+    <%= render 'home/navbar' %>
     <%= yield %>
+    <%= render 'home/footer' %>
   </body>
 </html>
