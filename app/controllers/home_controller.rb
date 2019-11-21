@@ -7,7 +7,7 @@ class HomeController < ApplicationController
         @stock = StockQuote::Stock.quote(params[:ticker])
       rescue StandardError
         @stock = nil
-        @error = "Hey! THat Stock Symbol Doesn't Exist. Please Try Again"
+        @error = "Hey! That Stock Symbol Doesn't Exist. Please Try Again"
       end
     end
   end
