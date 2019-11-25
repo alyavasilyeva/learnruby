@@ -29,7 +29,6 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'bootstrap', '~> 4.3', '>= 4.3.1'
-gem 'jquery-rails'
 gem 'stock_quote', '~> 3.0'
 gem 'devise', '~> 4.7', '>= 4.7.1'
 
